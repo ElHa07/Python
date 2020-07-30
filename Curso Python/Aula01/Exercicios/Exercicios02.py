@@ -1,4 +1,4 @@
-# Exercício Python #001 - Dissecando uma Variável
+# Exercício Python #002 - Dissecando uma Variável
 # Faça um programa que leia algo pelo teclado e mostre, na tela o seu tipo primitivo e todas as informações possiveis sobre ele.add()
 
 a = input('Escreva seu Nome: ')
