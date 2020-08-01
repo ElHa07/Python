@@ -15,5 +15,5 @@ plt.title(titulo)
 plt.xlabel("Eixox")
 plt.ylabel("Eixosy")
 
-plt.bar(x,y)
+plt.plot(x,y)
 plt.show()
