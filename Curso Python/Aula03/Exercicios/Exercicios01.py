@@ -2,3 +2,15 @@
 
 # Exercício: Crie um programa que leia um número Real qualquer pelo teclado e mostre na tela a sua porção Inteira.
 
+# Primeiro Exemplo 
+
+# import math
+# num = float(input('Digite um Número: '))
+# print('O valor digitado foi {} e a sua porção inteira é {}'.format(num,math.trunc(num)))
+
+# Segundo Exemplo
+
+from math import trunc
+num = float(input('Digite um Número: '))
+inteiro = trunc(num)
+print('O valor digitado foi {} e a sua porção inteira é {}'.format(num, trunc(num)))
