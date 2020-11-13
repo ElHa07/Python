@@ -40,6 +40,8 @@ for letra in chave:
         senha = senha + "#"
     elif letra in "Mm":
         senha = senha + "@"
+    elif letra in "Tt":
+        senha = senha + "&"
     else:
         senha = senha + letra
 print(senha)
